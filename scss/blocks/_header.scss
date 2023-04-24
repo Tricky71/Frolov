@@ -2,7 +2,7 @@
   position: relative;
   min-height: 100vh;
   background-color: #413e3c;
-  background-image: url("../../img/promo-mob.png");
+  background-image: url("../img/promo-mob.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
@@ -43,7 +43,7 @@
 
 @media (min-width: $tablet-width) {
   .header {
-    background-image: url("../../img/promo-tab.png");
+    background-image: url("../img/promo-tab.png");
   }
 
   .header__top {
@@ -58,7 +58,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url("../../img/chart-full.png");
+    background-image: url("../img/chart-full.png");
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
@@ -76,7 +76,7 @@
 @media (min-width: $desktop-width) {
   .header {
     min-height: 100vh;
-    background-image: url("../../img/promo-desk-full.jpg");
+    background-image: url("../img/promo-desk-full.jpg");
   }
 
   .header__top {
@@ -90,7 +90,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url("../../img/chart-full.png");
+    background-image: url("../img/chart-full.png");
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
