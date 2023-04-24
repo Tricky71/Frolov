@@ -1,0 +1,9 @@
+.news-news {
+  margin-top: -500px;
+}
+
+@media(min-width: $desktop-width) {
+  .news-news {
+  margin-top: -350px;
+  }
+}

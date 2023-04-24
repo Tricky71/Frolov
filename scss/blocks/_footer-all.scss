@@ -1,0 +1,27 @@
+.footer-all {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-all__copy {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+@media(min-width: $tablet-width) {
+  .footer-all {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .footer-all__copy {
+    margin-bottom: 0;
+  }
+}

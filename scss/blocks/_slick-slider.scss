@@ -1,0 +1,23 @@
+.slick-dots {
+  @include reset-list;
+  width: 115px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.slick-dots li {
+  margin-right: 5px;
+}
+
+.slick-dots button {
+  width: 35px;
+  height: 4px;
+  font-size: 0;
+  border: none;
+  background-color: #aeaeae;
+}
+
+.slick-active button{
+  background-color: $accent;
+}

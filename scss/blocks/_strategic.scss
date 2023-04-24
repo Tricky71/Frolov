@@ -1,0 +1,24 @@
+.strategic__button {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.strategic__title {
+  margin-bottom: 10px;
+}
+
+.strategic__content {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-size: 16px;
+}
+
+@media (min-width: $tablet-width){
+  .strategic__content {
+    padding: 0 50px;
+    text-align: center;
+  }
+}

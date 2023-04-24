@@ -1,0 +1,43 @@
+.card {
+  min-height: 100%;
+  padding: 30px 38px;
+  transition: all .25s ease;
+    &:hover {
+      background-color: #cfc96c;
+    }
+}
+
+.card__image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.card__title {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  text-align: center;
+    &::after {
+      position: absolute;
+      content: '';
+      left: 50%;
+      bottom: 0;  
+      transform: translateX(-50%);
+      width: 60px;
+      height: 2px; 
+      background-color: $accent;
+    }
+}
+
+.card__info {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  text-align: center;
+  color: #aeaeae;
+}

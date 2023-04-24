@@ -1,0 +1,10 @@
+.main-news {
+  padding: 30px 0;
+  background-color: #fff;
+}
+
+@media(min-width: $tablet-width) {
+  .main-news {
+    padding: 80px 0;
+  }
+}

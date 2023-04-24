@@ -1,0 +1,14 @@
+.logo__link {
+  margin: 0;
+  padding: 0;
+  color: $accent;
+  font-weight: bold;
+  text-transform: uppercase;
+    &:hover {
+      color: $accent;
+      text-decoration: none;
+    }
+    &:active {
+      color: $accent;
+    }
+}

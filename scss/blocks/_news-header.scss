@@ -1,0 +1,23 @@
+
+@media(min-width: $desktop-width) {
+  .news-header {
+    min-height: 760px; 
+    background-image: url("../../img/news-desk-full.jpg");
+  }
+
+  .news-header .header__overlay {
+    height: 90%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  
+  .news-header .promo {
+    padding-top: 90px;
+    align-items: center;
+  }
+
+  .news-header .promo__title {
+    text-align: center;
+  }
+}

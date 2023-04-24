@@ -1,0 +1,26 @@
+.mark__inlay {
+  position: relative;
+  display: none;
+  padding: 12px;
+  background-color: $accent;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 5px;
+    &::before {
+      content: '';
+      position: absolute;
+      top: 14px;
+      right: -7px;
+      width: 14px;
+      height: 14px;
+      transform: rotate(45deg);
+      background-color: $accent;
+    }
+}
+
+@media(min-width: $desktop-width) {
+  .mark__inlay {
+    display: block;
+  }
+}

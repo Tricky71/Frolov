@@ -1,0 +1,25 @@
+.main-contact {
+  position: relative;
+  padding: 30px 0;
+  background-color: #413e3c;
+  background-image: url("../../img/info-img-full.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 0;
+    &::before {
+      position: absolute;
+      content: '';
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: #2e190c;
+      opacity: .7;
+    }
+}
+
+@media(min-width: $tablet-width) {
+  .main-contact {
+    padding: 100px 0;
+  }
+}

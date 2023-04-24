@@ -1,0 +1,26 @@
+.contact-form {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+
+    & input,
+    & textarea {
+      margin-bottom: 15px;
+      padding: 10px;
+      border-color: #fff;
+      background-color: transparent;
+      opacity: .6;
+        &::placeholder {
+          color: #fff;
+        }
+    }
+    & textarea {
+      margin-bottom: 30px;
+    }
+}
+
+.contact-form__button {
+  align-self: end;
+  padding: 10px 50px;
+  font-size: 14px;
+}

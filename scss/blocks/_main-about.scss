@@ -1,0 +1,10 @@
+.main-about {
+  padding: 30px 0;
+  background-color: #fff;
+}
+
+@media(min-width: $tablet-width) {
+  .main-about {
+    padding: 80px 0;
+  }
+}

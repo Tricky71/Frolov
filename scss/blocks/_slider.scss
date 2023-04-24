@@ -1,0 +1,14 @@
+.about__slider {
+  @include reset-list;
+}
+
+.slider__item-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.slider__item img {
+  width: 33.3%;
+  border-right: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+}

@@ -1,0 +1,10 @@
+.main-footer {
+  padding: 20px 0;
+  background-color: #343434;
+}
+
+@media(min-width: $desktop-width) {
+  .main-footer {
+    padding: 50px 0;
+  }
+}

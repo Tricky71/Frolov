@@ -1,0 +1,22 @@
+.search-form {
+  display: flex;
+  align-items: stretch;
+  flex-wrap: nowrap;
+    & input {
+      box-sizing: border-box;
+      margin-right: 5px;
+      width: 100%;
+      background-color: #343434;
+      border: 1px solid $accent;
+    }
+}
+
+.search-form__button {
+  width:40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background-color: $accent;
+  cursor: pointer;
+}
